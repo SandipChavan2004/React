@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.parent{
+  padding: 20px;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 34px;
+}
+.card{
+  width: 300px;
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.315);
+}
+
+.card img{
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card h1{
+  text-align: center;
+}
+
+.card p{
+  padding: 20px;
+}
+
+.card button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgb(255, 255, 255);
+}
