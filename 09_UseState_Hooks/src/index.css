@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html, body{
+  background-color: rgb(31, 31, 31);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+h1{
+  /* background-color: rgb(66, 83, 97); */
+  width: fit-content;
+  padding: 20px 180px;
+  font-size: 58px;
+  border-radius: 12px;
+  text-align: center;
+  overflow: hidden;
+}
+
+button{
+  padding: 6px 12px;
+  margin: 7px;
+}
